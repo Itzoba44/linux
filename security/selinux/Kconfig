@@ -4,7 +4,7 @@ config SECURITY_SELINUX
 	depends on SECURITY_NETWORK && AUDIT && NET && INET
 	select NETWORK_SECMARK
 	default n
-	help
+	help 
 	  This selects Security-Enhanced Linux (SELinux).
 	  You will also need a policy configuration and a labeled filesystem.
 	  If you are unsure how to answer this question, answer N.
